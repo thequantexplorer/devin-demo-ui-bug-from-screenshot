@@ -1,0 +1,14 @@
+{
+  "name": "acme-pricing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pricing page for Acme Notes (static HTML and CSS)",
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test",
+    "screenshot": "node scripts/screenshot.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1"
+  }
+}
