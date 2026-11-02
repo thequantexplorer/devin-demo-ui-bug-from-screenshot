@@ -73,7 +73,6 @@ a {
 
 .plan {
   position: relative;
-  min-width: 240px; /* keep cards readable */
   padding: 24px;
   background: #fff;
   border: 1px solid #d2d2d7;
@@ -124,11 +123,9 @@ a {
 
 .cta {
   display: block;
-  height: 44px;
-  line-height: 44px;
-  white-space: nowrap;
-  overflow: hidden;
-  padding: 0 16px;
+  min-height: 44px;
+  padding: 10px 16px;
+  line-height: 24px;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
@@ -144,7 +141,7 @@ a {
 /* Phones: stack the cards */
 
 @media (max-width: 720px) {
-  .pricing-grid {
+  .plans {
     grid-template-columns: 1fr;
   }
 }
